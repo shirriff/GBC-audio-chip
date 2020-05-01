@@ -1,0 +1,1203 @@
+EESchema Schematic File Version 4
+LIBS:IR3R53-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ken-library:PNP Q?
+U 1 1 5EC4DC37
+P 6650 3200
+AR Path="/5EC22F05/5EC4DC37" Ref="Q?"  Part="1" 
+AR Path="/5EC4C4AA/5EC4DC37" Ref="Q3"  Part="1" 
+F 0 "Q3" H 6793 3153 50  0000 L CNN
+F 1 " " H 6793 3246 50  0001 L CNN
+F 2 "" H 6850 3300 50  0001 C CNN
+F 3 "" H 6650 3200 50  0001 C CNN
+	1    6650 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L ken-library:NPN Q?
+U 1 1 5EC4DC3E
+P 6450 3900
+AR Path="/5EC22F05/5EC4DC3E" Ref="Q?"  Part="1" 
+AR Path="/5EC4C4AA/5EC4DC3E" Ref="Q6"  Part="1" 
+F 0 "Q6" H 6593 3947 50  0000 L CNN
+F 1 "x6" H 6593 3854 50  0001 L CNN
+F 2 "" H 6650 4000 50  0001 C CNN
+F 3 "" H 6450 3900 50  0001 C CNN
+	1    6450 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L ken-library:NPN Q?
+U 1 1 5EC4DC45
+P 5850 3900
+AR Path="/5EC22F05/5EC4DC45" Ref="Q?"  Part="1" 
+AR Path="/5EC4C4AA/5EC4DC45" Ref="Q7"  Part="1" 
+F 0 "Q7" H 5992 3947 50  0000 L CNN
+F 1 " " H 5992 3854 50  0000 L CNN
+F 2 "" H 6050 4000 50  0001 C CNN
+F 3 "" H 5850 3900 50  0001 C CNN
+	1    5850 3900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ken-library:PNP Q?
+U 1 1 5EC4DC4C
+P 5650 3200
+AR Path="/5EC22F05/5EC4DC4C" Ref="Q?"  Part="1" 
+AR Path="/5EC4C4AA/5EC4DC4C" Ref="Q5"  Part="1" 
+F 0 "Q5" H 5793 3200 50  0000 L CNN
+F 1 " " H 5792 3246 50  0001 L CNN
+F 2 "" H 5850 3300 50  0001 C CNN
+F 3 "" H 5650 3200 50  0001 C CNN
+	1    5650 3200
+	1    0    0    1   
+$EndComp
+Text Label 6150 2000 1    50   ~ 0
++
+$Comp
+L power:GND #PWR?
+U 1 1 5EC4DC5B
+P 6550 4100
+AR Path="/5EC22F05/5EC4DC5B" Ref="#PWR?"  Part="1" 
+AR Path="/5EC4C4AA/5EC4DC5B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6550 3850 50  0001 C CNN
+F 1 "GND" H 6555 3924 50  0001 C CNN
+F 2 "" H 6550 4100 50  0001 C CNN
+F 3 "" H 6550 4100 50  0001 C CNN
+	1    6550 4100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EC4DC61
+P 5750 4100
+AR Path="/5EC22F05/5EC4DC61" Ref="#PWR?"  Part="1" 
+AR Path="/5EC4C4AA/5EC4DC61" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5750 3850 50  0001 C CNN
+F 1 "GND" H 5755 3924 50  0001 C CNN
+F 2 "" H 5750 4100 50  0001 C CNN
+F 3 "" H 5750 4100 50  0001 C CNN
+	1    5750 4100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 3700 6550 3400
+Connection ~ 6550 3400
+Wire Wire Line
+	6050 3900 6050 3700
+Wire Wire Line
+	6050 3700 5750 3700
+Connection ~ 6050 3900
+Wire Wire Line
+	6050 3900 6250 3900
+Wire Wire Line
+	5750 3700 5750 3400
+Connection ~ 5750 3700
+$Comp
+L ken-library:NPN Q?
+U 1 1 5EC4E060
+P 10050 2400
+AR Path="/5EC22F05/5EC4E060" Ref="Q?"  Part="1" 
+AR Path="/5EC4C4AA/5EC4E060" Ref="Q14"  Part="1" 
+F 0 "Q14" H 10193 2447 50  0000 L CNN
+F 1 "x10" H 10193 2354 50  0000 L CNN
+F 2 "" H 10250 2500 50  0001 C CNN
+F 3 "" H 10050 2400 50  0001 C CNN
+	1    10050 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L ken-library:NPN Q?
+U 1 1 5EC4E3C9
+P 10050 3600
+AR Path="/5EC22F05/5EC4E3C9" Ref="Q?"  Part="1" 
+AR Path="/5EC4C4AA/5EC4E3C9" Ref="Q12"  Part="1" 
+F 0 "Q12" H 10193 3647 50  0000 L CNN
+F 1 "x10" H 10193 3554 50  0000 L CNN
+F 2 "" H 10250 3700 50  0001 C CNN
+F 3 "" H 10050 3600 50  0001 C CNN
+	1    10050 3600
+	1    0    0    -1  
+$EndComp
+Text Notes 11200 3050 2    50   ~ 0
+R output (15)\nL output (12)
+$Comp
+L power:GND #PWR?
+U 1 1 5EC4F262
+P 10150 3800
+AR Path="/5EC22F05/5EC4F262" Ref="#PWR?"  Part="1" 
+AR Path="/5EC4C4AA/5EC4F262" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 10150 3550 50  0001 C CNN
+F 1 "GND" H 10155 3624 50  0001 C CNN
+F 2 "" H 10150 3800 50  0001 C CNN
+F 3 "" H 10150 3800 50  0001 C CNN
+	1    10150 3800
+	-1   0    0    -1  
+$EndComp
+Text Label 10150 2200 1    50   ~ 0
++
+$Comp
+L ken-library:PNP Q?
+U 1 1 5EC50549
+P 4600 1550
+AR Path="/5EC22F05/5EC50549" Ref="Q?"  Part="1" 
+AR Path="/5EC4C4AA/5EC50549" Ref="Q15"  Part="1" 
+F 0 "Q15" H 4742 1503 50  0000 L CNN
+F 1 " " H 4742 1596 50  0000 L CNN
+F 2 "" H 4800 1650 50  0001 C CNN
+F 3 "" H 4600 1550 50  0001 C CNN
+	1    4600 1550
+	-1   0    0    1   
+$EndComp
+$Comp
+L ken-library:PNP Q?
+U 1 1 5EC50804
+P 8800 1550
+AR Path="/5EC22F05/5EC50804" Ref="Q?"  Part="1" 
+AR Path="/5EC4C4AA/5EC50804" Ref="Q18"  Part="1" 
+F 0 "Q18" H 8942 1503 50  0000 L CNN
+F 1 "x3" H 8942 1596 50  0000 L CNN
+F 2 "" H 9000 1650 50  0001 C CNN
+F 3 "" H 8800 1550 50  0001 C CNN
+	1    8800 1550
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4500 1750 4800 1750
+Wire Wire Line
+	4800 1750 4800 1550
+Connection ~ 4800 1550
+Wire Wire Line
+	4800 1550 4750 1550
+Text Label 4500 1350 1    50   ~ 0
++
+$Comp
+L ken-library:NPN Q?
+U 1 1 5EC5300A
+P 4400 3550
+AR Path="/5EC22F05/5EC5300A" Ref="Q?"  Part="1" 
+AR Path="/5EC4C4AA/5EC5300A" Ref="Q19"  Part="1" 
+F 0 "Q19" H 4543 3597 50  0000 L CNN
+F 1 "x2" H 4543 3504 50  0000 L CNN
+F 2 "" H 4600 3650 50  0001 C CNN
+F 3 "" H 4400 3550 50  0001 C CNN
+	1    4400 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EC53C56
+P 4500 3750
+AR Path="/5EC22F05/5EC53C56" Ref="#PWR?"  Part="1" 
+AR Path="/5EC4C4AA/5EC53C56" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4500 3500 50  0001 C CNN
+F 1 "GND" H 4505 3574 50  0001 C CNN
+F 2 "" H 4500 3750 50  0001 C CNN
+F 3 "" H 4500 3750 50  0001 C CNN
+	1    4500 3750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EC551DC
+P 3700 3750
+AR Path="/5EC22F05/5EC551DC" Ref="#PWR?"  Part="1" 
+AR Path="/5EC4C4AA/5EC551DC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3700 3500 50  0001 C CNN
+F 1 "GND" H 3705 3574 50  0001 C CNN
+F 2 "" H 3700 3750 50  0001 C CNN
+F 3 "" H 3700 3750 50  0001 C CNN
+	1    3700 3750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ken-library:PNP Q?
+U 1 1 5EC5574B
+P 3800 2600
+AR Path="/5EC22F05/5EC5574B" Ref="Q?"  Part="1" 
+AR Path="/5EC4C4AA/5EC5574B" Ref="Q204"  Part="1" 
+F 0 "Q204" H 3942 2553 50  0000 L CNN
+F 1 " " H 3942 2646 50  0000 L CNN
+F 2 "" H 4000 2700 50  0001 C CNN
+F 3 "" H 3800 2600 50  0001 C CNN
+	1    3800 2600
+	-1   0    0    1   
+$EndComp
+Text Label 3700 2400 1    50   ~ 0
++
+$Comp
+L ken-library:PNP Q?
+U 1 1 5EC56A34
+P 2650 2600
+AR Path="/5EC22F05/5EC56A34" Ref="Q?"  Part="1" 
+AR Path="/5EC4C4AA/5EC56A34" Ref="Q203"  Part="1" 
+F 0 "Q203" H 2792 2553 50  0000 L CNN
+F 1 " " H 2792 2646 50  0000 L CNN
+F 2 "" H 2850 2700 50  0001 C CNN
+F 3 "" H 2650 2600 50  0001 C CNN
+	1    2650 2600
+	1    0    0    1   
+$EndComp
+Connection ~ 2750 2800
+Text Notes 1350 3650 2    50   ~ 0
+Headphone\ndisable\n(from speaker sheet)
+$Comp
+L ken-library:PNP Q?
+U 1 1 5EDC4E57
+P 9450 3000
+AR Path="/5EC22F05/5EDC4E57" Ref="Q?"  Part="1" 
+AR Path="/5EC4C4AA/5EDC4E57" Ref="Q13"  Part="1" 
+F 0 "Q13" H 9593 2953 50  0000 L CNN
+F 1 "x2" H 9593 3046 50  0000 L CNN
+F 2 "" H 9650 3100 50  0001 C CNN
+F 3 "" H 9450 3000 50  0001 C CNN
+	1    9450 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EDC5A42
+P 9350 3200
+AR Path="/5EC22F05/5EDC5A42" Ref="#PWR?"  Part="1" 
+AR Path="/5EC4C4AA/5EDC5A42" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9350 2950 50  0001 C CNN
+F 1 "GND" H 9355 3024 50  0001 C CNN
+F 2 "" H 9350 3200 50  0001 C CNN
+F 3 "" H 9350 3200 50  0001 C CNN
+	1    9350 3200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ken-library:PNP Q?
+U 1 1 5EDCA217
+P 6050 2600
+AR Path="/5EC22F05/5EDCA217" Ref="Q?"  Part="1" 
+AR Path="/5EC4C4AA/5EDCA217" Ref="Q4"  Part="1" 
+F 0 "Q4" H 6193 2600 50  0000 L CNN
+F 1 " " H 6192 2646 50  0001 L CNN
+F 2 "" H 6250 2700 50  0001 C CNN
+F 3 "" H 6050 2600 50  0001 C CNN
+	1    6050 2600
+	1    0    0    1   
+$EndComp
+$Comp
+L SparkFun_SchematicComponents:SPARKFUN-RESISTORS_4.7KOHM-0603-1_10W-1% R?
+U 1 1 5EDCA926
+P 6150 2200
+AR Path="/5EC22F05/5EDCA926" Ref="R?"  Part="1" 
+AR Path="/5EC4C4AA/5EDCA926" Ref="R6"  Part="1" 
+F 0 "R6" V 6150 2270 45  0000 L CNN
+F 1 " " H 6150 2313 45  0001 C CNN
+F 2 "SPARKFUN-RESISTORS_0603" H 6180 2350 20  0001 C CNN
+F 3 "" H 6150 2200 60  0001 C CNN
+	1    6150 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L SparkFun_SchematicComponents:SPARKFUN-CAPACITORS_0.1UF-0402-16V-10% C1
+U 1 1 5EDCED5F
+P 6950 3550
+F 0 "C1" H 7060 3550 45  0000 L CNN
+F 1 "SPARKFUN-CAPACITORS_0.1UF-0402-16V-10%" H 7060 3507 45  0001 L CNN
+F 2 "SPARKFUN-CAPACITORS_0402" H 6980 3650 20  0001 C CNN
+F 3 "" H 6950 3500 60  0001 C CNN
+	1    6950 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 3400 6950 3400
+$Comp
+L power:GND #PWR?
+U 1 1 5EDD0AB6
+P 6950 3700
+AR Path="/5EC22F05/5EDD0AB6" Ref="#PWR?"  Part="1" 
+AR Path="/5EC4C4AA/5EDD0AB6" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6950 3450 50  0001 C CNN
+F 1 "GND" H 6955 3524 50  0001 C CNN
+F 2 "" H 6950 3700 50  0001 C CNN
+F 3 "" H 6950 3700 50  0001 C CNN
+	1    6950 3700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ken-library:NPN Q?
+U 1 1 5EDD1872
+P 7200 3400
+AR Path="/5EC22F05/5EDD1872" Ref="Q?"  Part="1" 
+AR Path="/5EC4C4AA/5EDD1872" Ref="Q8"  Part="1" 
+F 0 "Q8" H 7343 3447 50  0000 L CNN
+F 1 "x6" H 7343 3354 50  0001 L CNN
+F 2 "" H 7400 3500 50  0001 C CNN
+F 3 "" H 7200 3400 50  0001 C CNN
+	1    7200 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 3400 6950 3400
+Connection ~ 6950 3400
+$Comp
+L power:GND #PWR?
+U 1 1 5EDD2682
+P 7300 3700
+AR Path="/5EC22F05/5EDD2682" Ref="#PWR?"  Part="1" 
+AR Path="/5EC4C4AA/5EDD2682" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7300 3450 50  0001 C CNN
+F 1 "GND" H 7305 3524 50  0001 C CNN
+F 2 "" H 7300 3700 50  0001 C CNN
+F 3 "" H 7300 3700 50  0001 C CNN
+	1    7300 3700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 3700 7300 3600
+$Comp
+L SparkFun_SchematicComponents:SPARKFUN-RESISTORS_4.7KOHM-0603-1_10W-1% R?
+U 1 1 5EDD32BF
+P 7600 3200
+AR Path="/5EC22F05/5EDD32BF" Ref="R?"  Part="1" 
+AR Path="/5EC4C4AA/5EDD32BF" Ref="R8"  Part="1" 
+F 0 "R8" H 7600 3270 45  0000 C BNN
+F 1 " " H 7600 3313 45  0001 C CNN
+F 2 "SPARKFUN-RESISTORS_0603" H 7630 3350 20  0001 C CNN
+F 3 "" H 7600 3200 60  0001 C CNN
+	1    7600 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L ken-library:NPN Q?
+U 1 1 5EDD559D
+P 8100 2550
+AR Path="/5EC22F05/5EDD559D" Ref="Q?"  Part="1" 
+AR Path="/5EC4C4AA/5EDD559D" Ref="Q9"  Part="1" 
+F 0 "Q9" H 8243 2597 50  0000 L CNN
+F 1 "x3" H 8243 2504 50  0000 L CNN
+F 2 "" H 8300 2650 50  0001 C CNN
+F 3 "" H 8100 2550 50  0001 C CNN
+	1    8100 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun_SchematicComponents:SPARKFUN-RESISTORS_4.7KOHM-0603-1_10W-1% R?
+U 1 1 5EDD8DCE
+P 8200 2150
+AR Path="/5EC22F05/5EDD8DCE" Ref="R?"  Part="1" 
+AR Path="/5EC4C4AA/5EDD8DCE" Ref="R11"  Part="1" 
+F 0 "R11" V 8200 2220 45  0000 L CNN
+F 1 " " H 8200 2263 45  0001 C CNN
+F 2 "SPARKFUN-RESISTORS_0603" H 8230 2300 20  0001 C CNN
+F 3 "" H 8200 2150 60  0001 C CNN
+	1    8200 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L ken-library:PNP Q?
+U 1 1 5EDDB05A
+P 9500 1550
+AR Path="/5EC22F05/5EDDB05A" Ref="Q?"  Part="1" 
+AR Path="/5EC4C4AA/5EDDB05A" Ref="Q17"  Part="1" 
+F 0 "Q17" H 9642 1503 50  0000 L CNN
+F 1 " " H 9642 1596 50  0000 L CNN
+F 2 "" H 9700 1650 50  0001 C CNN
+F 3 "" H 9500 1550 50  0001 C CNN
+	1    9500 1550
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	9600 1750 9600 2400
+$Comp
+L ken-library:PNP Q?
+U 1 1 5EDDCA3D
+P 8100 1550
+AR Path="/5EC22F05/5EDDCA3D" Ref="Q?"  Part="1" 
+AR Path="/5EC4C4AA/5EDDCA3D" Ref="Q16"  Part="1" 
+F 0 "Q16" H 8242 1503 50  0000 L CNN
+F 1 " " H 8242 1596 50  0000 L CNN
+F 2 "" H 8300 1650 50  0001 C CNN
+F 3 "" H 8100 1550 50  0001 C CNN
+	1    8100 1550
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	8200 1950 8200 1750
+Wire Wire Line
+	7900 1950 8200 1950
+Connection ~ 8200 1950
+$Comp
+L ken-library:PNP Q?
+U 1 1 5EDDEA26
+P 8800 3000
+AR Path="/5EC22F05/5EDDEA26" Ref="Q?"  Part="1" 
+AR Path="/5EC4C4AA/5EDDEA26" Ref="Q11"  Part="1" 
+F 0 "Q11" H 8942 2953 50  0000 L CNN
+F 1 "x3" H 8942 3046 50  0001 L CNN
+F 2 "" H 9000 3100 50  0001 C CNN
+F 3 "" H 8800 3000 50  0001 C CNN
+	1    8800 3000
+	1    0    0    1   
+$EndComp
+$Comp
+L ken-library:PNP Q?
+U 1 1 5EDDECD5
+P 8500 3000
+AR Path="/5EC22F05/5EDDECD5" Ref="Q?"  Part="1" 
+AR Path="/5EC4C4AA/5EDDECD5" Ref="Q10"  Part="1" 
+F 0 "Q10" H 8642 2953 50  0000 L CNN
+F 1 "x3" H 8642 3046 50  0001 L CNN
+F 2 "" H 8700 3100 50  0001 C CNN
+F 3 "" H 8500 3000 50  0001 C CNN
+	1    8500 3000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8400 3200 8650 3200
+Wire Wire Line
+	8650 3200 8650 3000
+Connection ~ 8650 3000
+Wire Wire Line
+	8400 3200 8200 3200
+Connection ~ 8400 3200
+$Comp
+L SparkFun_SchematicComponents:SPARKFUN-RESISTORS_4.7KOHM-0603-1_10W-1% R?
+U 1 1 5EDE8932
+P 5300 3200
+AR Path="/5EC22F05/5EDE8932" Ref="R?"  Part="1" 
+AR Path="/5EC4C4AA/5EDE8932" Ref="R9"  Part="1" 
+F 0 "R9" H 5300 3270 45  0000 C BNN
+F 1 " " H 5300 3313 45  0001 C CNN
+F 2 "SPARKFUN-RESISTORS_0603" H 5330 3350 20  0001 C CNN
+F 3 "" H 5300 3200 60  0001 C CNN
+	1    5300 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5050 3200 5100 3200
+Text Label 8200 1350 1    50   ~ 0
++
+Text Label 9600 1350 1    50   ~ 0
++
+Wire Wire Line
+	8200 2400 9600 2400
+Wire Wire Line
+	9350 2800 8900 2800
+Connection ~ 8900 2800
+Wire Wire Line
+	8900 2800 8400 2800
+Connection ~ 8650 1550
+Wire Wire Line
+	8900 1750 8900 2800
+Text Notes 4100 6750 2    50   ~ 0
+In R (7)\n    L (8)
+$Comp
+L ken-library:diode-blk D?
+U 1 1 5EE09402
+P 4950 6550
+F 0 "D?" H 4950 6650 50  0001 C CNN
+F 1 "diode-blk" H 4950 6450 50  0001 C CNN
+F 2 "" H 4950 6375 50  0001 C CNN
+F 3 "" H 4950 6550 50  0001 C CNN
+	1    4950 6550
+	0    1    1    0   
+$EndComp
+Text Label 4950 6400 1    50   ~ 0
++
+$Comp
+L SparkFun_SchematicComponents:SPARKFUN-RESISTORS_4.7KOHM-0603-1_10W-1% R?
+U 1 1 5EE0A58E
+P 5150 6700
+AR Path="/5EC22F05/5EE0A58E" Ref="R?"  Part="1" 
+AR Path="/5EC4C4AA/5EE0A58E" Ref="R1"  Part="1" 
+F 0 "R1" H 5150 6770 45  0000 C BNN
+F 1 " " H 5150 6813 45  0001 C CNN
+F 2 "SPARKFUN-RESISTORS_0603" H 5180 6850 20  0001 C CNN
+F 3 "" H 5150 6700 60  0001 C CNN
+	1    5150 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L SparkFun_SchematicComponents:SPARKFUN-RESISTORS_4.7KOHM-0603-1_10W-1% R?
+U 1 1 5EE0ABD3
+P 5550 6700
+AR Path="/5EC22F05/5EE0ABD3" Ref="R?"  Part="1" 
+AR Path="/5EC4C4AA/5EE0ABD3" Ref="R2"  Part="1" 
+F 0 "R2" H 5550 6770 45  0000 C BNN
+F 1 " " H 5550 6813 45  0001 C CNN
+F 2 "SPARKFUN-RESISTORS_0603" H 5580 6850 20  0001 C CNN
+F 3 "" H 5550 6700 60  0001 C CNN
+	1    5550 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L ken-library:diode-blk D?
+U 1 1 5EE0AEE5
+P 5350 6900
+F 0 "D?" H 5350 7000 50  0001 C CNN
+F 1 "diode-blk" H 5350 6800 50  0001 C CNN
+F 2 "" H 5350 6725 50  0001 C CNN
+F 3 "" H 5350 6900 50  0001 C CNN
+	1    5350 6900
+	0    1    1    0   
+$EndComp
+Connection ~ 5350 6700
+$Comp
+L power:GND #PWR?
+U 1 1 5EE0B456
+P 5350 7100
+AR Path="/5EC22F05/5EE0B456" Ref="#PWR?"  Part="1" 
+AR Path="/5EC4C4AA/5EE0B456" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5350 6850 50  0001 C CNN
+F 1 "GND" H 5355 6924 50  0001 C CNN
+F 2 "" H 5350 7100 50  0001 C CNN
+F 3 "" H 5350 7100 50  0001 C CNN
+	1    5350 7100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SparkFun_SchematicComponents:SPARKFUN-RESISTORS_4.7KOHM-0603-1_10W-1% R?
+U 1 1 5EE0B8F9
+P 5750 6900
+AR Path="/5EC22F05/5EE0B8F9" Ref="R?"  Part="1" 
+AR Path="/5EC4C4AA/5EE0B8F9" Ref="R3"  Part="1" 
+F 0 "R3" V 5750 6970 45  0000 L CNN
+F 1 " " H 5750 7013 45  0001 C CNN
+F 2 "SPARKFUN-RESISTORS_0603" H 5780 7050 20  0001 C CNN
+F 3 "" H 5750 6900 60  0001 C CNN
+	1    5750 6900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EE0BEC9
+P 5750 7100
+AR Path="/5EC22F05/5EE0BEC9" Ref="#PWR?"  Part="1" 
+AR Path="/5EC4C4AA/5EE0BEC9" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5750 6850 50  0001 C CNN
+F 1 "GND" H 5755 6924 50  0001 C CNN
+F 2 "" H 5750 7100 50  0001 C CNN
+F 3 "" H 5750 7100 50  0001 C CNN
+	1    5750 7100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 6750 5350 6700
+Wire Wire Line
+	5350 7100 5350 7050
+$Comp
+L SparkFun_SchematicComponents:SPARKFUN-RESISTORS_4.7KOHM-0603-1_10W-1% R?
+U 1 1 5EE0F1A7
+P 5950 6700
+AR Path="/5EC22F05/5EE0F1A7" Ref="R?"  Part="1" 
+AR Path="/5EC4C4AA/5EE0F1A7" Ref="R4"  Part="1" 
+F 0 "R4" H 5950 6770 45  0000 C BNN
+F 1 " " H 5950 6813 45  0001 C CNN
+F 2 "SPARKFUN-RESISTORS_0603" H 5980 6850 20  0001 C CNN
+F 3 "" H 5950 6700 60  0001 C CNN
+	1    5950 6700
+	-1   0    0    1   
+$EndComp
+Connection ~ 5750 6700
+$Comp
+L SparkFun_SchematicComponents:SPARKFUN-RESISTORS_4.7KOHM-0603-1_10W-1% R?
+U 1 1 5EE0F581
+P 5950 6350
+AR Path="/5EC22F05/5EE0F581" Ref="R?"  Part="1" 
+AR Path="/5EC4C4AA/5EE0F581" Ref="R5"  Part="1" 
+F 0 "R5" H 5950 6420 45  0000 C BNN
+F 1 " " H 5950 6463 45  0001 C CNN
+F 2 "SPARKFUN-RESISTORS_0603" H 5980 6500 20  0001 C CNN
+F 3 "" H 5950 6350 60  0001 C CNN
+	1    5950 6350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5750 6700 5750 6350
+Text Notes 6200 6500 0    50   ~ 0
+Right or left\nsignal\n(to speaker\nsheet)
+$Comp
+L ken-library:PNP Q?
+U 1 1 5EE13C1D
+P 6700 6700
+AR Path="/5EC22F05/5EE13C1D" Ref="Q?"  Part="1" 
+AR Path="/5EC4C4AA/5EE13C1D" Ref="Q1"  Part="1" 
+F 0 "Q1" H 6842 6653 50  0000 L CNN
+F 1 " " H 6842 6746 50  0000 L CNN
+F 2 "" H 6900 6800 50  0001 C CNN
+F 3 "" H 6700 6700 50  0001 C CNN
+	1    6700 6700
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6150 6700 6550 6700
+$Comp
+L power:GND #PWR?
+U 1 1 5EE14A21
+P 6800 7100
+AR Path="/5EC22F05/5EE14A21" Ref="#PWR?"  Part="1" 
+AR Path="/5EC4C4AA/5EE14A21" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6800 6850 50  0001 C CNN
+F 1 "GND" H 6805 6924 50  0001 C CNN
+F 2 "" H 6800 7100 50  0001 C CNN
+F 3 "" H 6800 7100 50  0001 C CNN
+	1    6800 7100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 7100 6800 6900
+$Comp
+L ken-library:PNP Q?
+U 1 1 5EE1607E
+P 6700 2600
+AR Path="/5EC22F05/5EE1607E" Ref="Q?"  Part="1" 
+AR Path="/5EC4C4AA/5EE1607E" Ref="Q2"  Part="1" 
+F 0 "Q2" H 6842 2553 50  0000 L CNN
+F 1 " " H 6842 2646 50  0000 L CNN
+F 2 "" H 6900 2700 50  0001 C CNN
+F 3 "" H 6700 2600 50  0001 C CNN
+	1    6700 2600
+	1    0    0    1   
+$EndComp
+$Comp
+L SparkFun_SchematicComponents:SPARKFUN-RESISTORS_4.7KOHM-0603-1_10W-1% R?
+U 1 1 5EE1AB5A
+P 2850 3950
+AR Path="/5EC22F05/5EE1AB5A" Ref="R?"  Part="1" 
+AR Path="/5EC4C4AA/5EE1AB5A" Ref="R201"  Part="1" 
+F 0 "R201" V 2850 4020 45  0000 L CNN
+F 1 " " H 2850 4063 45  0001 C CNN
+F 2 "SPARKFUN-RESISTORS_0603" H 2880 4100 20  0001 C CNN
+F 3 "" H 2850 3950 60  0001 C CNN
+	1    2850 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EE1B2AB
+P 2850 4150
+AR Path="/5EC22F05/5EE1B2AB" Ref="#PWR?"  Part="1" 
+AR Path="/5EC4C4AA/5EE1B2AB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2850 3900 50  0001 C CNN
+F 1 "GND" H 2855 3974 50  0001 C CNN
+F 2 "" H 2850 4150 50  0001 C CNN
+F 3 "" H 2850 4150 50  0001 C CNN
+	1    2850 4150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 2950 5500 3200
+Connection ~ 5500 3200
+Text Notes 4150 4450 2    50   ~ 0
+Cap R (16)\n        L (13)
+$Comp
+L ken-library:diode-blk D?
+U 1 1 5EE2405E
+P 4450 4250
+F 0 "D?" H 4450 4350 50  0001 C CNN
+F 1 "diode-blk" H 4450 4150 50  0001 C CNN
+F 2 "" H 4450 4075 50  0001 C CNN
+F 3 "" H 4450 4250 50  0001 C CNN
+	1    4450 4250
+	0    1    1    0   
+$EndComp
+Text Label 4450 4100 1    50   ~ 0
++
+$Comp
+L SparkFun_SchematicComponents:SPARKFUN-RESISTORS_4.7KOHM-0603-1_10W-1% R?
+U 1 1 5EE25326
+P 5300 2950
+AR Path="/5EC22F05/5EE25326" Ref="R?"  Part="1" 
+AR Path="/5EC4C4AA/5EE25326" Ref="R10"  Part="1" 
+F 0 "R10" H 5300 3020 45  0000 C BNN
+F 1 " " H 5300 3063 45  0001 C CNN
+F 2 "SPARKFUN-RESISTORS_0603" H 5330 3100 20  0001 C CNN
+F 3 "" H 5300 2950 60  0001 C CNN
+	1    5300 2950
+	-1   0    0    1   
+$EndComp
+Connection ~ 4600 4400
+Wire Wire Line
+	4950 2950 4950 4400
+$Comp
+L ken-library:NPN Q?
+U 1 1 5EE2B355
+P 4500 5000
+AR Path="/5EC22F05/5EE2B355" Ref="Q?"  Part="1" 
+AR Path="/5EC4C4AA/5EE2B355" Ref="Q20"  Part="1" 
+F 0 "Q20" H 4643 5047 50  0000 L CNN
+F 1 "x2" H 4643 4954 50  0001 L CNN
+F 2 "" H 4700 5100 50  0001 C CNN
+F 3 "" H 4500 5000 50  0001 C CNN
+	1    4500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EE302AD
+P 4600 5200
+AR Path="/5EC22F05/5EE302AD" Ref="#PWR?"  Part="1" 
+AR Path="/5EC4C4AA/5EE302AD" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4600 4950 50  0001 C CNN
+F 1 "GND" H 4605 5024 50  0001 C CNN
+F 2 "" H 4600 5200 50  0001 C CNN
+F 3 "" H 4600 5200 50  0001 C CNN
+	1    4600 5200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 1550 7950 1550
+$Comp
+L ken-library:NPN Q?
+U 1 1 5EE3C4CC
+P 2400 5000
+AR Path="/5EC22F05/5EE3C4CC" Ref="Q?"  Part="1" 
+AR Path="/5EC4C4AA/5EE3C4CC" Ref="Q205"  Part="1" 
+F 0 "Q205" H 2543 5047 50  0000 L CNN
+F 1 " " H 2543 4954 50  0000 L CNN
+F 2 "" H 2600 5100 50  0001 C CNN
+F 3 "" H 2400 5000 50  0001 C CNN
+	1    2400 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L ken-library:NPN Q?
+U 1 1 5EE3C9AC
+P 1800 5000
+AR Path="/5EC22F05/5EE3C9AC" Ref="Q?"  Part="1" 
+AR Path="/5EC4C4AA/5EE3C9AC" Ref="Q206"  Part="1" 
+F 0 "Q206" H 1943 5047 50  0000 L CNN
+F 1 " " H 1943 4954 50  0000 L CNN
+F 2 "" H 2000 5100 50  0001 C CNN
+F 3 "" H 1800 5000 50  0001 C CNN
+	1    1800 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L ken-library:NPN Q?
+U 1 1 5EE3D2EB
+P 1700 4650
+AR Path="/5EC22F05/5EE3D2EB" Ref="Q?"  Part="1" 
+AR Path="/5EC4C4AA/5EE3D2EB" Ref="Q207"  Part="1" 
+F 0 "Q207" H 1843 4697 50  0000 L CNN
+F 1 " " H 1843 4604 50  0000 L CNN
+F 2 "" H 1900 4750 50  0001 C CNN
+F 3 "" H 1700 4650 50  0001 C CNN
+	1    1700 4650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 4850 1600 5000
+Wire Wire Line
+	1600 5000 2200 5000
+$Comp
+L SparkFun_SchematicComponents:SPARKFUN-RESISTORS_4.7KOHM-0603-1_10W-1% R?
+U 1 1 5EE487C9
+P 1900 4250
+AR Path="/5EC22F05/5EE487C9" Ref="R?"  Part="1" 
+AR Path="/5EC4C4AA/5EE487C9" Ref="R203"  Part="1" 
+F 0 "R203" V 1900 4320 45  0000 L CNN
+F 1 " " H 1900 4363 45  0001 C CNN
+F 2 "SPARKFUN-RESISTORS_0603" H 1930 4400 20  0001 C CNN
+F 3 "" H 1900 4250 60  0001 C CNN
+	1    1900 4250
+	0    1    1    0   
+$EndComp
+Text Label 1900 4050 1    50   ~ 0
++
+$Comp
+L SparkFun_SchematicComponents:SPARKFUN-RESISTORS_4.7KOHM-0603-1_10W-1% R?
+U 1 1 5EE496BB
+P 1600 4250
+AR Path="/5EC22F05/5EE496BB" Ref="R?"  Part="1" 
+AR Path="/5EC4C4AA/5EE496BB" Ref="R204"  Part="1" 
+F 0 "R204" V 1600 4320 45  0000 L CNN
+F 1 " " H 1600 4363 45  0001 C CNN
+F 2 "SPARKFUN-RESISTORS_0603" H 1630 4400 20  0001 C CNN
+F 3 "" H 1600 4250 60  0001 C CNN
+	1    1600 4250
+	0    -1   1    0   
+$EndComp
+Text Label 1600 4050 1    50   ~ 0
++
+Wire Wire Line
+	1900 4800 1900 4650
+Wire Wire Line
+	1900 4650 1900 4450
+Connection ~ 1900 4650
+$Comp
+L SparkFun_SchematicComponents:SPARKFUN-RESISTORS_4.7KOHM-0603-1_10W-1% R?
+U 1 1 5EE4FD24
+P 2500 5400
+AR Path="/5EC22F05/5EE4FD24" Ref="R?"  Part="1" 
+AR Path="/5EC4C4AA/5EE4FD24" Ref="R202"  Part="1" 
+F 0 "R202" V 2500 5470 45  0000 L CNN
+F 1 " " H 2500 5513 45  0001 C CNN
+F 2 "SPARKFUN-RESISTORS_0603" H 2530 5550 20  0001 C CNN
+F 3 "" H 2500 5400 60  0001 C CNN
+	1    2500 5400
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EE50532
+P 2500 5600
+AR Path="/5EC22F05/5EE50532" Ref="#PWR?"  Part="1" 
+AR Path="/5EC4C4AA/5EE50532" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2500 5350 50  0001 C CNN
+F 1 "GND" H 2505 5424 50  0001 C CNN
+F 2 "" H 2500 5600 50  0001 C CNN
+F 3 "" H 2500 5600 50  0001 C CNN
+	1    2500 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EE51969
+P 1900 5200
+AR Path="/5EC22F05/5EE51969" Ref="#PWR?"  Part="1" 
+AR Path="/5EC4C4AA/5EE51969" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1900 4950 50  0001 C CNN
+F 1 "GND" H 1905 5024 50  0001 C CNN
+F 2 "" H 1900 5200 50  0001 C CNN
+F 3 "" H 1900 5200 50  0001 C CNN
+	1    1900 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun_SchematicComponents:SPARKFUN-RESISTORS_4.7KOHM-0603-1_10W-1% R?
+U 1 1 5EE5F005
+P 6800 2200
+AR Path="/5EC22F05/5EE5F005" Ref="R?"  Part="1" 
+AR Path="/5EC4C4AA/5EE5F005" Ref="R7"  Part="1" 
+F 0 "R7" V 6800 2270 45  0000 L CNN
+F 1 " " H 6800 2313 45  0001 C CNN
+F 2 "SPARKFUN-RESISTORS_0603" H 6830 2350 20  0001 C CNN
+F 3 "" H 6800 2200 60  0001 C CNN
+	1    6800 2200
+	0    1    1    0   
+$EndComp
+Text Label 6800 2000 1    50   ~ 0
++
+Wire Wire Line
+	5900 2600 6550 2600
+Connection ~ 4500 1750
+$Comp
+L SparkFun_SchematicComponents:SPARKFUN-RESISTORS_4.7KOHM-0603-1_10W-1% R?
+U 1 1 5EE91C27
+P 4600 4600
+AR Path="/5EC22F05/5EE91C27" Ref="R?"  Part="1" 
+AR Path="/5EC4C4AA/5EE91C27" Ref="R12"  Part="1" 
+F 0 "R12" V 4600 4670 45  0000 L CNN
+F 1 " " H 4600 4713 45  0001 C CNN
+F 2 "SPARKFUN-RESISTORS_0603" H 4630 4750 20  0001 C CNN
+F 3 "" H 4600 4600 60  0001 C CNN
+	1    4600 4600
+	0    1    1    0   
+$EndComp
+Connection ~ 7950 1550
+Wire Wire Line
+	4500 1750 4500 3350
+Wire Wire Line
+	7900 1950 7900 2550
+Connection ~ 8200 3200
+Wire Wire Line
+	9600 3000 10150 3000
+Connection ~ 10150 3000
+Wire Wire Line
+	10150 3000 10150 3400
+Wire Wire Line
+	10150 2600 10150 3000
+Wire Wire Line
+	8900 3600 8900 3200
+Wire Wire Line
+	8900 3600 9850 3600
+Connection ~ 9600 2400
+Wire Wire Line
+	9600 2400 9850 2400
+Wire Wire Line
+	8650 1550 9350 1550
+Wire Wire Line
+	7950 1550 8650 1550
+Text Label 8900 1350 1    50   ~ 0
++
+Wire Wire Line
+	8200 2750 8200 3200
+Wire Wire Line
+	5100 2950 4950 2950
+Wire Notes Line rgb(128, 128, 0)
+	1350 3950 1350 5400
+Wire Notes Line rgb(128, 128, 0)
+	1350 5400 2150 5400
+Wire Notes Line rgb(128, 128, 0)
+	2150 3950 1350 3950
+Text Notes 1950 5500 2    50   ~ 0
+Current source
+Connection ~ 2200 5000
+Wire Notes Line rgb(128, 128, 0)
+	2150 3950 2150 5750
+Text Notes 3600 4750 2    50   ~ 0
+Current mirror
+Wire Notes Line rgb(128, 128, 0)
+	4200 1850 4200 1250
+Wire Notes Line rgb(128, 128, 0)
+	4200 1250 9850 1250
+Wire Notes Line rgb(128, 128, 0)
+	9850 1250 9850 1850
+Wire Notes Line rgb(128, 128, 0)
+	9850 1850 4200 1850
+Text Notes 7350 1200 2    50   ~ 0
+Current mirror
+Wire Notes Line rgb(128, 128, 0)
+	7850 1900 7850 4050
+Wire Notes Line rgb(128, 128, 0)
+	7850 4050 10400 4050
+Wire Notes Line rgb(128, 128, 0)
+	10400 4050 10400 1900
+Wire Notes Line rgb(128, 128, 0)
+	10400 1900 7850 1900
+Wire Wire Line
+	4600 4400 4950 4400
+Wire Wire Line
+	4450 4400 4600 4400
+Wire Wire Line
+	4200 4400 4450 4400
+Wire Wire Line
+	7800 3200 8200 3200
+Wire Wire Line
+	7400 3200 7300 3200
+Wire Wire Line
+	6800 3200 6800 6500
+Connection ~ 6800 3200
+Wire Notes Line rgb(128, 128, 0)
+	5550 2950 6700 2950
+Wire Notes Line rgb(128, 128, 0)
+	6700 2950 6700 4300
+Wire Notes Line rgb(128, 128, 0)
+	6700 4300 5550 4300
+Wire Notes Line rgb(128, 128, 0)
+	5550 4300 5550 2950
+Text Notes 5800 4400 0    50   ~ 0
+Differential input
+Wire Wire Line
+	5750 3000 6150 3000
+Wire Wire Line
+	6150 3000 6150 2800
+Connection ~ 6150 3000
+Wire Wire Line
+	6150 3000 6550 3000
+Wire Wire Line
+	6800 2800 6800 3200
+Wire Wire Line
+	2500 2800 2500 4800
+Wire Wire Line
+	3700 2800 3700 3300
+$Comp
+L ken-library:NPN Q?
+U 1 1 5EC54009
+P 2950 3550
+AR Path="/5EC22F05/5EC54009" Ref="Q?"  Part="1" 
+AR Path="/5EC4C4AA/5EC54009" Ref="Q201"  Part="1" 
+F 0 "Q201" H 3093 3597 50  0000 L CNN
+F 1 "x10" H 3093 3504 50  0000 L CNN
+F 2 "" H 3150 3650 50  0001 C CNN
+F 3 "" H 2950 3550 50  0001 C CNN
+	1    2950 3550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ken-library:NPN Q?
+U 1 1 5EC547D2
+P 3800 3550
+AR Path="/5EC22F05/5EC547D2" Ref="Q?"  Part="1" 
+AR Path="/5EC4C4AA/5EC547D2" Ref="Q202"  Part="1" 
+F 0 "Q202" H 3943 3597 50  0000 L CNN
+F 1 " " H 3943 3504 50  0000 L CNN
+F 2 "" H 4000 3650 50  0001 C CNN
+F 3 "" H 3800 3550 50  0001 C CNN
+	1    3800 3550
+	-1   0    0    -1  
+$EndComp
+Connection ~ 5900 2600
+Text Label 2750 2400 1    50   ~ 0
++
+Connection ~ 2500 2600
+Wire Wire Line
+	2500 2600 3950 2600
+Wire Wire Line
+	2500 2800 2750 2800
+Connection ~ 2500 2800
+Wire Wire Line
+	2500 2600 2500 2800
+Wire Notes Line rgb(128, 128, 0)
+	1750 2850 1750 1900
+Wire Notes Line rgb(128, 128, 0)
+	1750 1900 7000 1900
+Wire Notes Line rgb(128, 128, 0)
+	7000 1900 7000 2850
+Wire Notes Line rgb(128, 128, 0)
+	7000 2850 1750 2850
+Text Notes 3350 1900 2    50   ~ 0
+Current mirror
+Wire Wire Line
+	10150 3000 10450 3000
+Text Notes 8900 4150 0    50   ~ 0
+Output stage
+Wire Wire Line
+	3950 2600 5900 2600
+Wire Wire Line
+	2750 2800 2850 2800
+Wire Wire Line
+	2850 2800 2850 3350
+Wire Wire Line
+	1350 3550 3150 3550
+Wire Wire Line
+	3150 3550 4000 3550
+Connection ~ 3150 3550
+Connection ~ 4000 3550
+Wire Wire Line
+	4000 3550 4200 3550
+Wire Wire Line
+	4000 3550 4000 3300
+Wire Wire Line
+	4000 3300 3700 3300
+Connection ~ 3700 3300
+Wire Wire Line
+	3700 3300 3700 3350
+Wire Notes Line rgb(128, 128, 0)
+	3400 3200 4750 3200
+Wire Notes Line rgb(128, 128, 0)
+	4750 3200 4750 3950
+Wire Notes Line rgb(128, 128, 0)
+	4750 3950 3400 3950
+Wire Notes Line rgb(128, 128, 0)
+	3400 3950 3400 3200
+Text Notes 4400 3200 2    50   ~ 0
+Current mirror
+Wire Notes Line rgb(128, 128, 0)
+	3150 3200 3150 4300
+Wire Notes Line rgb(128, 128, 0)
+	3150 4300 2600 4300
+Wire Notes Line rgb(128, 128, 0)
+	2600 4300 2600 3200
+Wire Notes Line rgb(128, 128, 0)
+	2600 3200 3150 3200
+Text Notes 3150 4400 2    50   ~ 0
+Current source
+Wire Notes Line rgb(128, 128, 0)
+	6850 2950 6850 4050
+Wire Notes Line rgb(128, 128, 0)
+	6850 4050 7800 4050
+Wire Notes Line rgb(128, 128, 0)
+	7800 2950 6850 2950
+Wire Notes Line rgb(128, 128, 0)
+	7800 2950 7800 4050
+Text Notes 7000 4150 0    50   ~ 0
+Gain stage
+Wire Wire Line
+	5050 3200 5050 4500
+Connection ~ 4450 4400
+$Comp
+L ken-library:diode-blk D?
+U 1 1 5EBB0BF4
+P 4450 4550
+F 0 "D?" H 4450 4650 50  0001 C CNN
+F 1 "diode-blk" H 4450 4450 50  0001 C CNN
+F 2 "" H 4450 4375 50  0001 C CNN
+F 3 "" H 4450 4550 50  0001 C CNN
+	1    4450 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EBB1153
+P 4450 4700
+AR Path="/5EC22F05/5EBB1153" Ref="#PWR?"  Part="1" 
+AR Path="/5EC4C4AA/5EBB1153" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4450 4450 50  0001 C CNN
+F 1 "GND" H 4455 4524 50  0001 C CNN
+F 2 "" H 4450 4700 50  0001 C CNN
+F 3 "" H 4450 4700 50  0001 C CNN
+	1    4450 4700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ken-library:diode-blk D?
+U 1 1 5EBB6BC5
+P 10550 2850
+F 0 "D?" H 10550 2950 50  0001 C CNN
+F 1 "diode-blk" H 10550 2750 50  0001 C CNN
+F 2 "" H 10550 2675 50  0001 C CNN
+F 3 "" H 10550 2850 50  0001 C CNN
+	1    10550 2850
+	0    1    1    0   
+$EndComp
+Connection ~ 10550 3000
+$Comp
+L ken-library:diode-blk D?
+U 1 1 5EBB746A
+P 10550 3150
+F 0 "D?" H 10550 3250 50  0001 C CNN
+F 1 "diode-blk" H 10550 3050 50  0001 C CNN
+F 2 "" H 10550 2975 50  0001 C CNN
+F 3 "" H 10550 3150 50  0001 C CNN
+	1    10550 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EBB7A4D
+P 10550 3300
+AR Path="/5EC22F05/5EBB7A4D" Ref="#PWR?"  Part="1" 
+AR Path="/5EC4C4AA/5EBB7A4D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 10550 3050 50  0001 C CNN
+F 1 "GND" H 10555 3124 50  0001 C CNN
+F 2 "" H 10550 3300 50  0001 C CNN
+F 3 "" H 10550 3300 50  0001 C CNN
+	1    10550 3300
+	-1   0    0    -1  
+$EndComp
+Text Label 10550 2700 1    50   ~ 0
++
+Wire Wire Line
+	10450 3000 10450 4500
+Connection ~ 10450 3000
+Wire Wire Line
+	10450 4500 5050 4500
+Wire Wire Line
+	10450 3000 10550 3000
+Wire Wire Line
+	10550 3000 10650 3000
+Connection ~ 3950 2600
+Text Notes 1100 1500 0    50   ~ 0
+The circuitry directly below (2xx) is shared by both headphone channels.\nThe remaining circuitry is duplicated for each channel.
+Wire Notes Line style dotted rgb(128, 128, 0)
+	4200 1900 4200 2850
+Wire Notes Line style dotted rgb(128, 128, 0)
+	4200 3200 4200 3950
+Wire Notes Line style dotted rgb(128, 128, 0)
+	4150 4800 4150 5750
+Wire Notes Line rgb(128, 128, 0)
+	4900 4800 4900 5750
+Wire Notes Line rgb(128, 128, 0)
+	2150 5750 4900 5750
+Wire Notes Line rgb(128, 128, 0)
+	2150 4800 4900 4800
+Wire Wire Line
+	2200 5000 4300 5000
+Wire Wire Line
+	4950 6700 4150 6700
+Connection ~ 4950 6700
+Text Notes 7050 6850 0    50   ~ 0
+Schematic for Nintendo Game Boy Color IR3R53 audio amplifier chip.\nReverse-engineered by Ken Shirriff, http://righto.com\nfrom die photos by John McMaster.
+$EndSCHEMATC
